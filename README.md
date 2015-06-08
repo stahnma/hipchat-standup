@@ -9,15 +9,11 @@ After you set some configuration information via the environment, you run the to
 # Configuration Options:
 
 
-HIPCHAT_ROOM   # Name of the room to scour
-
-HIPCHAT_API_TOKEN # your api key for hipchat (v1 api)"
-
-ENABLE_EMAIL  # by default no email is sent, just stdout."
-
-EMAIL_TARGET  # who you send the email to? "
-
-EMAIL_FROM   # who sends the standup email?"
+    HIPCHAT_ROOM      # Name of the room to scour
+    HIPCHAT_API_TOKEN # your api key for hipchat (v1 api)"
+    ENABLE_EMAIL      # by default no email is sent, just stdout."
+    EMAIL_TARGET      # who you send the email to? "
+    EMAIL_FROM        # who sends the standup email?"
 
 # Usage
 
