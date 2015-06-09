@@ -13,7 +13,7 @@ After you set some configuration information via the environment, you run the to
     HIPCHAT_API_TOKEN # your api key for hipchat (v1 api)"
     ENABLE_EMAIL      # by default no email is sent, just stdout."
     EMAIL_TARGET      # who you send the email to? "
-    EMAIL_FROM        # who sends the standup email?"
+    EMAIL_FROM        # who sends the standup email?" - this should be valid email address, or else it won't always go through.
 
 # Usage
 

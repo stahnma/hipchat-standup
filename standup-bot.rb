@@ -44,6 +44,7 @@ end
 
 puts standups
 if enable_email
+  puts "Sending mail to #{email_target}"
   Pony.mail(:to => email_target, :from => email_from, :subject => subject,
             :body => standups )
 end
