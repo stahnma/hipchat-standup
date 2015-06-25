@@ -36,7 +36,7 @@ blob =  client[hipchat_room].history(:date => date , :timezone => 'PST')
 blob.each_line do | messages |
   JSON.parse(messages).each do |m|
     m[1].each do |mess|
-      next unless mess['message'] =~ /#standup/i
+      next unless (mess['message'] =~ /#standup/i || mess['message'] =~ /(standup)/i)
       standups <<  mess['from']['name'] + ": " + mess['message'] + "\n\n"
     end
   end
